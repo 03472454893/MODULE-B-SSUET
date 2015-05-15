@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Two Way Binding 1<sup>st</sup> Assignment</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="class1binding.js"></script>
+</head>
+<body ng-app="app1">
+      <div ng-controller="appctrl1">
+        <h2>Salam {{name}} !</h2>
+          <label>Any Thing Write here to Change the Heading: </label>
+          <input type="text" ng-model="name">
+</div>
+</body>
+</html>
